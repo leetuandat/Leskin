@@ -1,0 +1,112 @@
+/* Map Link */
+.map-link {
+  padding-left: 18px;
+  margin: 25px 0px;
+}
+/* End Map Link */
+
+/* Contact */
+.contact {
+  padding-bottom: 30px;
+}
+
+.contact .contact-box {
+  overflow: hidden;
+}
+
+.contact .contact-box .form-contact .inner-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 20px;
+  padding-left: 10px;
+}
+
+.contact .contact-box .form-contact form label {
+  width: calc(50% - 15px);
+  margin: 7.5px;
+  font-weight: 400;
+  float: left;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.contact .contact-box .form-contact form>label>input {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px 15px 6px;
+}
+
+.contact .contact-box .form-contact textarea {
+  max-width: calc(100% - 15px);
+  margin: 7.5px;
+  height: 156px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+}
+
+.contact .contact-box .form-contact form button {
+  margin: 7.5px;
+  width: 100px;
+  height: 36px;
+  padding-top: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background: #dd8f22;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-box .address-contact .inner-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 20px;
+}
+
+.contact-box .address-contact p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 28px;
+  margin: 0 0 15px;
+}
+
+.contact-box .address-contact p.loc {
+  background-image: url(../images/icon/loc-ct.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+
+.contact-box .address-contact p.phone {
+  background-image: url(../images/icon/phone-ct.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+
+.contact-box .address-contact p.fax {
+  background-image: url(../images/icon/fax-ct.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+
+.contact-box .address-contact p.email {
+  background-image: url(../images/icon/email-ct.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+
+.contact-box .address-contact p.web {
+  background-image: url(../images/icon/web-ct.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+/* End Contact */
