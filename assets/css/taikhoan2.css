@@ -1,0 +1,93 @@
+.inner-header .inner-user .dropbtn {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 40px;
+}
+
+/* Pass */
+.Pass {
+  padding: 60px 0px;
+  background-color: #F9F9F9;
+}
+
+.Pass .card-body {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.Pass .list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+.Pass .list-group-item i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+
+.Pass .list-group-item:nth-child(1) {
+  background-color: #DD8F22;
+  color: white;
+  font-size: 26px;
+  font-weight: 550;
+}
+
+.Pass .list-group-item:nth-child(3), .fa-key {
+  color: #DD8F22;
+} 
+
+.Pass .inner-card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Pass .inner-line {
+  border-top: 1px solid #B3b3b3;
+  margin: 0 50px;
+  margin-bottom: 20px;
+}
+
+.Pass .inner-card-title h5 {
+  padding-left: 15px;
+}
+
+.Pass .inner-card-title .inner-desc {
+  padding-right: 15px;
+}
+
+.Pass .text-field {
+  display: flex;
+}
+
+.Pass .outer-line {
+  border-left: 1px solid #b3b3b3;
+}
+
+.Pass .outer-line img {
+  max-width: 60%;
+  border-radius: 50%;
+}
+
+.Pass .outer-line small {
+  font-size: 1rem;
+}
+
+.Pass .inner-footer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  padding: 0;
+}
+
+.Pass .inner-footer i {
+  margin-right: 10px;
+}
+
+.Pass .btn-primary {
+  padding: 5px 26px;
+  border-radius: 5px;
+}
+/* End Pass */
