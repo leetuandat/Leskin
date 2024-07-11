@@ -14,8 +14,8 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/base.css">
-  <link rel="stylesheet" href="./assets/css/taikhoan.css">
-  <title>tai khoan</title>
+  <link rel="stylesheet" href="./assets/css/taikhoan4.css">
+  <title>tai khoan 4</title>
 </head>
 
 <body>
@@ -89,8 +89,8 @@
   </div>
   <!-- End Map Link -->
 
-  <!-- Info Account -->
-  <div class="Info">
+  <!-- Wallet Account -->
+  <div class="Wallet">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -128,99 +128,41 @@
         </div>
 
         <!-- Profile Information Section -->
-        <div class="col-md-9">
-          <div class="card">
-            <div class="card-body">
-              <div class="row mb-3">
-                <div class="inner-card-title col-12">
-                  <h5 class="card-title">Thông tin cá nhân</h5>
-                  <div class="inner-desc">
-                    <i class="fa-solid fa-pen"></i>
-                    Chỉnh sửa
-                  </div>
-                </div>
-                <div class="inner-line col-11">
-
-                </div>
-                <div class="col-md-8">
-                  <form>
-                    <div class="mb-3 text-field">
-                      <label for="fullName" class="form-label col-3">Họ và tên</label>
-                      <input type="text" class="form-control col-8" id="fullName">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="idNumber" class="form-label col-3">Số CMND/CCCD</label>
-                      <input type="text" class="form-control col-8" id="idNumber">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="birthDate" class="form-label col-3">Ngày sinh</label>
-                      <div class="d-flex col-8">
-                        <!-- <select class="form-select me-2" style="width: auto;">
-                          <option selected>1</option>
-                          <option value="">2</option>
-
-                        </select>
-                        <select class="form-select mx-2" style="width: auto;">
-                          <option selected>Tháng</option>
-                        </select>
-                        <select class="form-select ms-2" style="width: auto;">
-                          <option selected>Năm</option>
-                          
-                        </select> -->
-                        <input type="date">
-                      </div>
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label class="form-label col-3">Giới tính</label>
-                      <div class="col-8">
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="gender" id="male" value="Nam">
-                          <label class="form-check-label" for="male">Nam</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="gender" id="female" value="Nữ">
-                          <label class="form-check-label" for="female">Nữ</label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="phone" class="form-label col-3">Số điện thoại</label>
-                      <input type="tel" class="form-control col-8" id="phone">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="email" class="form-label col-3">Email</label>
-                      <input type="email" class="form-control col-8" id="email">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="address" class="form-label col-3">Địa chỉ</label>
-                      <input type="text" class="form-control col-8" id="address">
-                    </div>
-                    <div class="submit col-9 offset-3 p-0">
-                      <button type="submit" class="btn button-two btn-primary">Lưu</button>
-                    </div>
-                    <div class="inner-footer">
-                      <div class="inner-space col-3"></div>
-                      <div class="inner-content">
-                        <i class="fa-solid fa-shield-heart"></i>
-                        Thông tin cá nhân của quý khách được đảm bảo an toàn
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-md-4 d-flex flex-column align-items-center outer-line">
-                  <img src="./assets/images/img/avatar.png" class="img-fluid rounded-circle" alt="Profile Picture">
-                  <button class="btn btn-outline-primary mt-5 mb-4">Chọn ảnh</button>
-                  <small class="text-muted">Dung lượng file tối đa 1 MB</small>
-                  <small class="text-muted">Định dạng: .JPEG, .PNG</small>
-                </div>
-              </div>
+        <div class="col-md-9 outter-border">
+          <div class="row mb-3">
+            <h3 class="col-12 inner-title">LỊCH SỬ GIAO DỊCH</h3>
+            <div class="table-responsive col-12">
+              <table class="table table-hover">
+                <thead class="thead-light">
+                  <tr>
+                    <th class="date">Ngày</th>
+                    <th>Nội dung</th>
+                    <th class="money">Số tiền</th>
+                    <th class="status">Trạng thái</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="date">24/07/2019</td>
+                    <td>Mua dịch vụ chăm sóc da công nghệ mới</td>
+                    <td class="num-money">-300.000₫</td>
+                    <td class="status">Hoàn tất</td>
+                  </tr>
+                  <tr>
+                    <td class="date">24/07/2019</td>
+                    <td>Mua dịch vụ chăm sóc da công nghệ mới</td>
+                    <td class="num-money">-300.000₫</td>
+                    <td class="status">Hoàn tất</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- End Info Account -->
+  <!-- End Wallet Account -->
 
   <!-- Sponsor -->
   <div class="sponsor">

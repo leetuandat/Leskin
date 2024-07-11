@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Design</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-custom {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .card-custom img {
+            width: 150px;
+            height: auto;
+            border-radius: 0.25rem 0 0 0.25rem;
+        }
+        .card-custom .card-body {
+            flex: 1;
+        }
+        .card-custom .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        .card-custom .card-text {
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+        .card-custom .btn-primary {
+            background-color: #ff7f27;
+            border-color: #ff7f27;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card card-custom">
+            <img src="./assets/images/img/news-1.jpg" alt="Image">
+            <div class="card-body">
+                <h5 class="card-title">Cẩm nang ngăn ngừa lão hóa từ dưỡng da đến trang điểm</h5>
+                <p class="card-text">
+                    <small class="text-muted">05/07/19</small><br>
+                    Đôi lúc, bạn thấy bản thân mình thật già dặn trong lớp trang điểm.
+                </p>
+                <a href="#" class="btn btn-primary">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -14,8 +14,8 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/base.css">
-  <link rel="stylesheet" href="./assets/css/taikhoan.css">
-  <title>tai khoan</title>
+  <link rel="stylesheet" href="./assets/css/tintuc.css">
+  <title>tai khoan 4</title>
 </head>
 
 <body>
@@ -82,145 +82,166 @@
         <div class="col-12">
           <span>Trang chủ</span>
           <span>></span>
-          <span>Tài khoản</span>
+          <span>Tin tức</span>
         </div>
       </div>
     </div>
   </div>
   <!-- End Map Link -->
 
-  <!-- Info Account -->
-  <div class="Info">
+  <!-- News -->
+  <div class="news">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action" aria-current="true">Thông tin tài khoản</a>
-            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
-              <i class="fa-solid fa-user-ninja"></i>
-              Thông tin cá nhân
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <i class="fa-solid fa-key"></i>
-              Thông tin bảo mật
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <i class="fa-solid fa-wallet"></i>
-              Thông tin ví
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <i class="fa-solid fa-clock-rotate-left"></i>
-              Lịch sử giao dịch
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <i class="fa-solid fa-user-shield"></i>
-              Điều khoản sử dụng
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <i class="fa-solid fa-book-open"></i>
-              Hướng dẫn sử dụng
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <i class="fa-solid fa-right-from-bracket"></i>
-              Đăng xuất
-            </a>
+        <div class="col-lg-12">
+          <div class="inner-title">
+            TIN TỨC
           </div>
         </div>
-
-        <!-- Profile Information Section -->
-        <div class="col-md-9">
-          <div class="card">
-            <div class="card-body">
-              <div class="row mb-3">
-                <div class="inner-card-title col-12">
-                  <h5 class="card-title">Thông tin cá nhân</h5>
-                  <div class="inner-desc">
-                    <i class="fa-solid fa-pen"></i>
-                    Chỉnh sửa
-                  </div>
-                </div>
-                <div class="inner-line col-11">
-
-                </div>
-                <div class="col-md-8">
-                  <form>
-                    <div class="mb-3 text-field">
-                      <label for="fullName" class="form-label col-3">Họ và tên</label>
-                      <input type="text" class="form-control col-8" id="fullName">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="idNumber" class="form-label col-3">Số CMND/CCCD</label>
-                      <input type="text" class="form-control col-8" id="idNumber">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="birthDate" class="form-label col-3">Ngày sinh</label>
-                      <div class="d-flex col-8">
-                        <!-- <select class="form-select me-2" style="width: auto;">
-                          <option selected>1</option>
-                          <option value="">2</option>
-
-                        </select>
-                        <select class="form-select mx-2" style="width: auto;">
-                          <option selected>Tháng</option>
-                        </select>
-                        <select class="form-select ms-2" style="width: auto;">
-                          <option selected>Năm</option>
-                          
-                        </select> -->
-                        <input type="date">
-                      </div>
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label class="form-label col-3">Giới tính</label>
-                      <div class="col-8">
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="gender" id="male" value="Nam">
-                          <label class="form-check-label" for="male">Nam</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="gender" id="female" value="Nữ">
-                          <label class="form-check-label" for="female">Nữ</label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="phone" class="form-label col-3">Số điện thoại</label>
-                      <input type="tel" class="form-control col-8" id="phone">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="email" class="form-label col-3">Email</label>
-                      <input type="email" class="form-control col-8" id="email">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="address" class="form-label col-3">Địa chỉ</label>
-                      <input type="text" class="form-control col-8" id="address">
-                    </div>
-                    <div class="submit col-9 offset-3 p-0">
-                      <button type="submit" class="btn button-two btn-primary">Lưu</button>
-                    </div>
-                    <div class="inner-footer">
-                      <div class="inner-space col-3"></div>
-                      <div class="inner-content">
-                        <i class="fa-solid fa-shield-heart"></i>
-                        Thông tin cá nhân của quý khách được đảm bảo an toàn
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-md-4 d-flex flex-column align-items-center outer-line">
-                  <img src="./assets/images/img/avatar.png" class="img-fluid rounded-circle" alt="Profile Picture">
-                  <button class="btn btn-outline-primary mt-5 mb-4">Chọn ảnh</button>
-                  <small class="text-muted">Dung lượng file tối đa 1 MB</small>
-                  <small class="text-muted">Định dạng: .JPEG, .PNG</small>
-                </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="inner-box row">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 inner-image">
+              <img src="./assets/images/img/news-1.jpg" alt="">
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 inner-content">
+              <h3 class="inner-title">
+                Cẩm nang ngăn ngữa lão hóa từ 
+                <br>
+                dưỡng da đến trang điểm
+              </h3>
+              <div class="inner-date">
+                <img src="./assets/images/icon/date.png" alt="">05/07/19
               </div>
+              <div class="inner-desc">
+                Đôi lúc, bạn thấy bản thân mình thật 
+                <br>
+                già dặn trong lớp trang điểm. Những
+              </div>
+              <div class="button-one watch-more">Xem thêm <i class="fa-solid fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="inner-box row">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5  inner-image">
+              <img src="./assets/images/img/news-2.jpg" alt="">
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7  inner-content">
+              <h3 class="inner-title">
+                Cẩm nang ngăn ngữa lão hóa từ 
+                <br>
+                dưỡng da đến trang điểm
+              </h3>
+              <div class="inner-date">
+                <img src="./assets/images/icon/date.png" alt="">05/07/19
+              </div>
+              <div class="inner-desc">
+                Đôi lúc, bạn thấy bản thân mình thật 
+                <br>
+                già dặn trong lớp trang điểm. Những
+              </div>
+              <div class="button-one watch-more">Xem thêm <i class="fa-solid fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="inner-box row">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5  inner-image">
+              <img src="./assets/images/img/news-3.jpg" alt="">
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7  inner-content">
+              <h3 class="inner-title">
+                Cẩm nang ngăn ngữa lão hóa từ 
+                <br>
+                dưỡng da đến trang điểm
+              </h3>
+              <div class="inner-date">
+                <img src="./assets/images/icon/date.png" alt="">05/07/19
+              </div>
+              <div class="inner-desc">
+                Đôi lúc, bạn thấy bản thân mình thật 
+                <br>
+                già dặn trong lớp trang điểm. Những
+              </div>
+              <div class="button-one watch-more">Xem thêm <i class="fa-solid fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="inner-box row">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5  inner-image">
+              <img src="./assets/images/img/news-1.jpg" alt="">
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7  inner-content">
+              <h3 class="inner-title">
+                Cẩm nang ngăn ngữa lão hóa từ 
+                <br>
+                dưỡng da đến trang điểm
+              </h3>
+              <div class="inner-date">
+                <img src="./assets/images/icon/date.png" alt="">05/07/19
+              </div>
+              <div class="inner-desc">
+                Đôi lúc, bạn thấy bản thân mình thật 
+                <br>
+                già dặn trong lớp trang điểm. Những
+              </div>
+              <div class="button-one watch-more">Xem thêm <i class="fa-solid fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="inner-box row">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5  inner-image">
+              <img src="./assets/images/img/news-2.jpg" alt="">
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7  inner-content">
+              <h3 class="inner-title">
+                Cẩm nang ngăn ngữa lão hóa từ 
+                <br>
+                dưỡng da đến trang điểm
+              </h3>
+              <div class="inner-date">
+                <img src="./assets/images/icon/date.png" alt="">05/07/19
+              </div>
+              <div class="inner-desc">
+                Đôi lúc, bạn thấy bản thân mình thật 
+                <br>
+                già dặn trong lớp trang điểm. Những
+              </div>
+              <div class="button-one watch-more">Xem thêm <i class="fa-solid fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="inner-box row">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5  inner-image">
+              <img src="./assets/images/img/news-3.jpg" alt="">
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7  inner-content">
+              <h3 class="inner-title">
+                Cẩm nang ngăn ngữa lão hóa từ 
+                <br>
+                dưỡng da đến trang điểm
+              </h3>
+              <div class="inner-date">
+                <img src="./assets/images/icon/date.png" alt="">05/07/19
+              </div>
+              <div class="inner-desc">
+                Đôi lúc, bạn thấy bản thân mình thật 
+                <br>
+                già dặn trong lớp trang điểm. Những
+              </div>
+              <div class="button-one watch-more">Xem thêm <i class="fa-solid fa-angle-right"></i></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- End Info Account -->
+  <!-- End News -->
 
   <!-- Sponsor -->
   <div class="sponsor">

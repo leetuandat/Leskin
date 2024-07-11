@@ -14,8 +14,8 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/base.css">
-  <link rel="stylesheet" href="./assets/css/taikhoan.css">
-  <title>tai khoan</title>
+  <link rel="stylesheet" href="./assets/css/taikhoan3b.css">
+  <title>tai khoan 3b</title>
 </head>
 
 <body>
@@ -89,8 +89,8 @@
   </div>
   <!-- End Map Link -->
 
-  <!-- Info Account -->
-  <div class="Info">
+  <!-- Wallet Account -->
+  <div class="Wallet">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -128,90 +128,48 @@
         </div>
 
         <!-- Profile Information Section -->
-        <div class="col-md-9">
-          <div class="card">
+        <div class="col-md-9 outter-border">
+          <div class="card" style="padding: 0; border: none;">
             <div class="card-body">
               <div class="row mb-3">
                 <div class="inner-card-title col-12">
-                  <h5 class="card-title">Thông tin cá nhân</h5>
-                  <div class="inner-desc">
-                    <i class="fa-solid fa-pen"></i>
-                    Chỉnh sửa
+                  <div class="col-4 inner-tag">
+                    <i class="fa-solid fa-tag"></i>
+                    <span class="inner-title">Voucher</span>
+                    <span class="inner-number">02</span>
+                  </div>
+                  <div class="col-4 inner-tag">
+                    <i class="fa-solid fa-gift"></i>
+                    <span class="inner-title">Coupon</span>
+                    <span class="inner-number">02</span>
+                  </div>
+                  <div class="col-4 inner-tag">
+                    <i class="fa-regular fa-star"></i>
+                    <span class="inner-title">Điểm</span>
+                    <span class="inner-number">2456</span>
                   </div>
                 </div>
-                <div class="inner-line col-11">
-
-                </div>
-                <div class="col-md-8">
-                  <form>
-                    <div class="mb-3 text-field">
-                      <label for="fullName" class="form-label col-3">Họ và tên</label>
-                      <input type="text" class="form-control col-8" id="fullName">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="idNumber" class="form-label col-3">Số CMND/CCCD</label>
-                      <input type="text" class="form-control col-8" id="idNumber">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="birthDate" class="form-label col-3">Ngày sinh</label>
-                      <div class="d-flex col-8">
-                        <!-- <select class="form-select me-2" style="width: auto;">
-                          <option selected>1</option>
-                          <option value="">2</option>
-
-                        </select>
-                        <select class="form-select mx-2" style="width: auto;">
-                          <option selected>Tháng</option>
-                        </select>
-                        <select class="form-select ms-2" style="width: auto;">
-                          <option selected>Năm</option>
-                          
-                        </select> -->
-                        <input type="date">
+                <!-- <div class="inner-line col-11"></div> -->
+                <div class="col-md-12">
+                  <div class="score-list">
+                    <div class="score">
+                      <div class="inner-title">
+                        Số điểm của bạn
+                      </div>
+                      <div class="score-info">
+                        <span>2456</span>
+                        <span>ĐIỂM</span>
+                      </div>
+                      <div class="inner-button">
+                        <a class="score-btn">
+                          TRAO ĐỔI
+                        </a>
+                        <a class="score-btn">
+                          CHO TẶNG
+                        </a>
                       </div>
                     </div>
-                    <div class="mb-3 text-field">
-                      <label class="form-label col-3">Giới tính</label>
-                      <div class="col-8">
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="gender" id="male" value="Nam">
-                          <label class="form-check-label" for="male">Nam</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="gender" id="female" value="Nữ">
-                          <label class="form-check-label" for="female">Nữ</label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="phone" class="form-label col-3">Số điện thoại</label>
-                      <input type="tel" class="form-control col-8" id="phone">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="email" class="form-label col-3">Email</label>
-                      <input type="email" class="form-control col-8" id="email">
-                    </div>
-                    <div class="mb-3 text-field">
-                      <label for="address" class="form-label col-3">Địa chỉ</label>
-                      <input type="text" class="form-control col-8" id="address">
-                    </div>
-                    <div class="submit col-9 offset-3 p-0">
-                      <button type="submit" class="btn button-two btn-primary">Lưu</button>
-                    </div>
-                    <div class="inner-footer">
-                      <div class="inner-space col-3"></div>
-                      <div class="inner-content">
-                        <i class="fa-solid fa-shield-heart"></i>
-                        Thông tin cá nhân của quý khách được đảm bảo an toàn
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-md-4 d-flex flex-column align-items-center outer-line">
-                  <img src="./assets/images/img/avatar.png" class="img-fluid rounded-circle" alt="Profile Picture">
-                  <button class="btn btn-outline-primary mt-5 mb-4">Chọn ảnh</button>
-                  <small class="text-muted">Dung lượng file tối đa 1 MB</small>
-                  <small class="text-muted">Định dạng: .JPEG, .PNG</small>
+                  </div>
                 </div>
               </div>
             </div>
@@ -220,7 +178,7 @@
       </div>
     </div>
   </div>
-  <!-- End Info Account -->
+  <!-- End Wallet Account -->
 
   <!-- Sponsor -->
   <div class="sponsor">

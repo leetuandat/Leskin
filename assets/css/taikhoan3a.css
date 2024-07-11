@@ -55,7 +55,7 @@
   font-weight: 550;
 }
 
-.inner-tag:nth-child(1) {
+.inner-tag:nth-child(2) {
   border-bottom: 2px solid #DE9022;
 }
 
@@ -75,7 +75,7 @@
   justify-content: space-between;
 }
 
-.voucher-list {
+.coupon-list {
   background: white;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   padding: 10px;
