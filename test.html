@@ -1,54 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Design</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .card-custom {
+        .facebook-comments {
+            width: 800px;
+            margin: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+
+        .comment-header {
             display: flex;
-            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .sort-comments {
+            display: flex;
             align-items: center;
         }
-        .card-custom img {
-            width: 150px;
-            height: auto;
-            border-radius: 0.25rem 0 0 0.25rem;
+
+        .sort-comments label {
+            margin-right: 5px;
         }
-        .card-custom .card-body {
-            flex: 1;
+
+        .sort-comments select {
+            padding: 2px 5px;
+            border: 1px solid #ccc;
         }
-        .card-custom .card-title {
-            font-size: 1.25rem;
-            font-weight: bold;
+
+        .comment-box {
+            display: flex;
+            align-items: flex-start;
         }
-        .card-custom .card-text {
-            font-size: 0.875rem;
-            color: #6c757d;
+
+        .comment-box img.user-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
         }
-        .card-custom .btn-primary {
-            background-color: #ff7f27;
-            border-color: #ff7f27;
+
+        .comment-box textarea {
+            flex-grow: 1;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        .comment-box button {
+            padding: 10px 15px;
+            background-color: #4267B2;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .comment-box button:hover {
+            background-color: #365899;
+        }
+
+        .comments-list {
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
         }
     </style>
 </head>
+
 <body>
-    <div class="container mt-5">
-        <div class="card card-custom">
-            <img src="./assets/images/img/news-1.jpg" alt="Image">
-            <div class="card-body">
-                <h5 class="card-title">Cẩm nang ngăn ngừa lão hóa từ dưỡng da đến trang điểm</h5>
-                <p class="card-text">
-                    <small class="text-muted">05/07/19</small><br>
-                    Đôi lúc, bạn thấy bản thân mình thật già dặn trong lớp trang điểm.
-                </p>
-                <a href="#" class="btn btn-primary">Xem thêm</a>
+    <div class="facebook-comments">
+        <div class="comment-header">
+            <span>BÌNH LUẬN FACEBOOK</span>
+            <span>0 bình luận</span>
+            <div class="sort-comments">
+                <label for="sort">Sắp xếp theo</label>
+                <select id="sort">
+                    <option value="newest">Mới nhất</option>
+                    <option value="oldest">Cũ nhất</option>
+                </select>
             </div>
         </div>
+        <div class="comment-box">
+            <img src="path_to_avatar.jpg" alt="User Avatar" class="user-avatar">
+            <textarea placeholder="Thêm bình luận..."></textarea>
+            <button type="submit">Post</button>
+        </div>
+        <div class="comments-list">
+            <!-- Comments will be loaded here -->
+        </div>
     </div>
+
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
